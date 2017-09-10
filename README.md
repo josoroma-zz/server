@@ -20,7 +20,7 @@ yarn add babel-cli babel-preset-es2015 babel-preset-stage-0 nodemon -D
 yarn start
 ```
 
-## graphiql
+## GraphiQL
 
 ```
 chrome http://localhost:4000/graphiql
@@ -33,3 +33,9 @@ chrome http://localhost:4000/graphiql
   }
 }
 ```
+
+## Modularizing the schema
+
+ * http://dev.apollodata.com/tools/graphql-tools/generate-schema.html#modularizing
+
+ * https://github.com/okgrow/merge-graphql-schemas
